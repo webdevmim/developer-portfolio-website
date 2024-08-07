@@ -107,6 +107,10 @@ main{
   margin: 0 auto;
 }
 
+main section {
+  margin-top: 130px;
+}
+
 .about{
   padding: 130px;
   border-radius: 10px;
@@ -120,4 +124,27 @@ main{
 }
 .about-info{
   text-align: center;
+}
+
+#what-i-do-description{
+  padding: 30px 150px;
+}
+
+/* skill related styles */
+
+.skills-container{
+  display: flex;
+  gap: 24px;
+}
+
+.skill{
+    padding:30px ;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px  rgb(0,0,0,0.06);
+  
+}
+
+.skill-description{
+  color: #757575;
 }
